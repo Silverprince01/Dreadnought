@@ -1,0 +1,457 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+body {
+  color: white;
+}
+header {
+  background-color: rgb(20, 50, 184);
+  padding: 20px;
+  position: relative;
+  width: 100%;
+  nav {
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h3 {
+      font-size: 40px;
+    }
+    ul {
+      color: rgb(192, 190, 168);
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 50%;
+      li {
+        font-size: 18px;
+        &:hover {
+          text-decoration: underline;
+          opacity: 0.8;
+        }
+        button {
+          padding: 12px;
+          background-color: rgb(192, 190, 168);
+          border-radius: 30px;
+          border: none;
+          width: 100px;
+          font-size: 15px;
+          color: white;
+          &:hover {
+            background-color: transparent;
+            border: 1px solid rgb(192, 190, 168);
+            color: rgb(192, 190, 168);
+          }
+        }
+      }
+    }
+  }
+}
+main {
+  position: relative;
+  .spaceship {
+    height: 400px;
+    width: 100%;
+  }
+  .h {
+    background-color: black;
+    opacity: 0.8;
+    top: 5%;
+    right: 20%;
+    position: absolute;
+    padding: 30px;
+    height: 350px;
+    width: 60%;
+    border-radius: 20px;
+    text-align: center;
+    .intro {
+      //   background-color: red;
+      flex-direction: column;
+      font-size: 40px;
+      display: flex;
+      //   opacity: 1;
+      h3 {
+        font-weight: bold;
+        margin: 30px 0;
+      }
+      p {
+        margin-bottom: 20px;
+      }
+      button {
+        margin-top: 20px;
+        align-self: center;
+        width: 300px;
+        padding: 15px;
+        border: none;
+        background-color: rgb(20, 50, 184);
+        border-radius: 20px;
+        color: white;
+        opacity: 1;
+        &:hover {
+          background-color: transparent;
+          border: 1px solid rgb(20, 50, 184);
+          color: rgb(20, 50, 184);
+        }
+      }
+    }
+  }
+}
+.intro_text {
+  padding: 20px 100px;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  line-height: 50px;
+  p {
+    margin-bottom: 40px;
+  }
+}
+.social {
+  background-color: rgb(218, 233, 232);
+  color: black;
+  text-align: center;
+  padding: 20px;
+  h3 {
+    color: rgb(20, 50, 184);
+    padding: 30px;
+    font-size: 35px;
+  }
+  .school {
+    display: flex;
+    div {
+      width: 60%;
+      img {
+        width: 85%;
+        height: 85%;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 30px;
+      }
+    }
+  }
+}
+.about {
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  h3 {
+    color: rgb(20, 50, 184);
+    font-size: 35px;
+    margin: 40px 0;
+  }
+  p.top {
+    padding: 40px 120px;
+  }
+  .entepreneur {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    div {
+      width: 100%;
+      text-align: center;
+      p {
+        padding: 0px 60px;
+        &.name {
+          margin-bottom: 30px;
+        }
+      }
+      img {
+        width: 50%;
+        height: 50%;
+      }
+    }
+  }
+}
+.experience {
+  background-color: rgb(218, 233, 232);
+  color: black;
+  text-align: center;
+  padding: 20px;
+  //   min-height: 400px;
+  h3 {
+    padding: 50px;
+    font-size: 40px;
+    color: rgb(20, 50, 184);
+  }
+  .comment {
+    display: flex;
+    justify-content: space-between;
+    div {
+      width: 60%;
+      img {
+        width: 60%;
+        margin-bottom: 20px;
+      }
+      p {
+        padding: 0 50px;
+        text-align: center;
+        &.name {
+          margin-bottom: 30px;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}
+.learn {
+  background-color: rgb(41, 123, 129);
+  padding: 30px;
+  .top {
+    padding: 40px;
+    text-align: center;
+    h3 {
+      margin-bottom: 30px;
+    }
+  }
+  .founder {
+    background-color: white;
+    color: rgb(20, 50, 184);
+    border-radius: 30px;
+    width: 90%;
+    min-height: 50px;
+    margin: auto;
+    padding: 30px 180px;
+    text-align: center;
+    .course_img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      width: 60%;
+      margin-bottom: 30px;
+    }
+    .future {
+      font-size: 25px;
+      font-weight: 900;
+      margin-bottom: 15px;
+    }
+    .jason {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 30px;
+      .text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // width: 15%;
+        .img {
+          width: 30px;
+        }
+      }
+    }
+  }
+}
+footer {
+  color: rgb(192, 190, 168);
+  padding: 20px;
+  background-color: rgb(20, 50, 184);
+  display: flex;
+  justify-content: space-between;
+  h3 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 946px) {
+  main {
+    .h {
+      width: 70%;
+      right: 15%;
+    }
+  }
+  .intro_text {
+    font-size: 20px;
+  }
+  .social {
+    .school {
+      div {
+        img {
+          width: 70%;
+          height: 70%;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 813px) {
+  header {
+    padding: 15px;
+    nav {
+      ul {
+        li {
+          font-size: 16px;
+          button {
+            padding: 8px;
+          }
+        }
+      }
+    }
+  }
+  .learn {
+    .founder {
+      padding: 30px 120px;
+    }
+  }
+}
+@media only screen and (max-width: 755px) {
+  .social {
+    .school {
+      flex-direction: column;
+      align-items: center;
+      div {
+        margin-bottom: 30px;
+        p {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  .about {
+    .entepreneur {
+      flex-direction: column;
+      align-items: center;
+      div {
+        margin-bottom: 30px;
+        .name {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  .experience {
+    .comment {
+      flex-direction: column;
+      align-items: center;
+      div {
+        width: 70%;
+        margin-bottom: 30px;
+        p {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 695px) {
+  header {
+    nav {
+      justify-content: space-between;
+      padding: 15px;
+      .hamburger {
+        display: block;
+      }
+      .hamburger.active .bar:nth-child(2) {
+        position: fixed;
+        left: -100%;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+      }
+      .hamburger.active .bar:nth-child(1) {
+        transform: translateY(5px) rotate(45deg);
+      }
+      .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-5px) rotate(-45deg);
+      }
+      .bar {
+        display: block;
+        width: 30px;
+        height: 3px;
+        border-radius: 5px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: rgb(192, 190, 168);
+      }
+      ul {
+        position: absolute;
+        left: -200%;
+        top: 88px;
+        flex-direction: column;
+        transition: 0.3s;
+        width: 90%;
+        padding: 20px;
+        margin: 20px;
+        box-shadow: 0 10px 29px rgb(192, 190, 168);
+        z-index: 1;
+        font-size: 20px;
+        text-align: center;
+        color: rgb(192, 190, 168);
+        background-color: rgb(20, 50, 184);
+        border-radius: 10px;
+        li {
+          margin-bottom: 20px;
+          &:hover {
+            text-decoration: underline;
+          }
+          // button{
+          //   width: 300%;
+          // }
+        }
+      }
+      ul.active {
+        left: 0;
+      }
+    }
+  }
+  .learn {
+    .founder {
+      padding: 30px 80px;
+    }
+  }
+}
+
+@media only screen and (max-width: 597px) {
+  main {
+    .h {
+      width: 85%;
+      right: 8%;
+    }
+  }
+  .learn {
+    .founder {
+      padding: 20px 60px;
+    }
+  }
+  footer {
+    flex-direction: column;
+    align-items: center;
+    h3 {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+  }
+}
+@media only screen and (max-width: 393px) {
+  main {
+    .h {
+      .intro {
+        h3 {
+          font-size: 35px;
+        }
+        p {
+          font-size: 33px;
+        }
+        button{
+            width: 200px;
+        }
+      }
+    }
+  }
+}
